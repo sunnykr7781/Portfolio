@@ -5,6 +5,8 @@ main {
   align-items: center;
   min-height: 90vh;
   gap: 40px;
+  margin-top: -4vh;
+  margin-bottom: 4px;
 }
 img {
   width: 320px;

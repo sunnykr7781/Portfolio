@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 36px;
+  padding: 16px 70px;
 }
 .details {
   display: flex;
@@ -19,17 +19,17 @@
 }
 a {
   color: rgb(63, 63, 63);
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   cursor: pointer;
   font-weight: 500;
 }
 
 span {
-  font-size: 2.4vw;
+  font-size: 2.6vw;
   color: blue;
 }
 h4 {
-  font-size: 2.4vw;
+  font-size: 2.8vw;
 }
 
 .common > a {
