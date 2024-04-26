@@ -1,26 +1,35 @@
-import React from "react"
-import "./Home.css"
+import React from "react";
+import "./Home.css";
 
 const Home = () => {
+  const downloadCV = () => {
+    // Adjust the path to your CV file
+    const cvUrl = process.env.PUBLIC_URL + '/assets/cv.pdf';
+
+    // Open the CV file in a new window
+    window.open(cvUrl, '_blank');
+  };
+
   return (
-    <>
+    <div id="home">
       <main>
         <div className="image">
-          <img src="../assets/pp.jpeg" alt="imageee" />
+          <img src={process.env.PUBLIC_URL + '/assets/pp.jpeg'} alt="imageee" />
         </div>
         <div className="information">
           <h5>hello, I'm</h5>
-
           <h1>SUNNY KUMAR</h1>
           <h3>software developer</h3>
           <div className="downloads">
-            <button className="btn2">download cV</button>
+            <button className="btn2" onClick={downloadCV}>
+              Download CV
+            </button>
             <button className="btn">contact info</button>
           </div>
         </div>
       </main>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default Home
+export default Home;
