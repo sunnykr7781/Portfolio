@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <main>
         <div className="image">
-          <img src="../assets/pp.jpeg" alt="image" />
+          <img src="../assets/pp.jpeg" alt="imageee" />
         </div>
         <div className="information">
           <h5>hello, I'm</h5>

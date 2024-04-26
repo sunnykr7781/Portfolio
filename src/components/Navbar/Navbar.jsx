@@ -21,8 +21,8 @@ const Navbar = () => {
         <div className="links">
           <div className="linkedin common">
             <a
-              target="_blank"
-              rel="noopener"
+              target="_blank"  rel="noreferrer" 
+             
               href="https://www.linkedin.com/in/sunny-kumar-2265a5195/"
             >
               Linkedin
@@ -30,8 +30,8 @@ const Navbar = () => {
           </div>
           <div className="github common">
             <a
-              target="_blank"
-              rel="noopener"
+              target="_blank"  rel="noreferrer" 
+            
               href="https://github.com/sunnykr7781"
             >
               github

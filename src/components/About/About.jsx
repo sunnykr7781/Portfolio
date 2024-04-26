@@ -30,12 +30,7 @@ const About = () => {
               </div>
             </div>
             <div className="btm">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Obcaecati minus qui cumque aut, maxime atque, placeat reiciendis
-              labore nostrum eveniet, nam voluptatem! Culpa dolores impedit
-              blanditiis debitis animi nihil consequuntur nulla! Amet harum
-              magnam quo placeat blanditiis, quae porro ea odio distinctio eum!
-              Architecto quisquam et fugiat est, excepturi eius.
+            My name is Sunny Kumar, and I specialize in MERN Stack development. I have a solid grasp of full-stack web development and am proficient in Java for Data Structures and Algorithms. Additionally, I have expertise in Object-Oriented Programming (OOPs) concepts and Computer Networks. Currently, I am enrolled in a BTech program and anticipate graduating in 2025. I am dedicated to learning and strive to deliver high-quality software solutions.
             </div>
           </div>
         </div>
