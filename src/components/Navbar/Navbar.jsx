@@ -15,6 +15,7 @@ const Navbar = () => {
 
   return (
     <>
+      <div id="empty"></div>
       <div id="nav" className="nav">
         <div className="cl">
           <div className="name">
@@ -54,7 +55,7 @@ const Navbar = () => {
       </div>
 
       {/* Layout */}
-      {layoutVisible && (
+      {/* {layoutVisible && (
         <div id="layout">
           <div className="ilayout">
             <i className="ri-close-line" onClick={closeLayout}></i>
@@ -74,7 +75,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Hamburger Menu */}
       <div id="hammenu" className="hammenu">

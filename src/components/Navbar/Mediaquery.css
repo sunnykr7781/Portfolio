@@ -48,10 +48,10 @@
     right: 0;
     top: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(94, 94, 94);
     color: white;
-    padding: 1rem 0.8rem;
+    /* padding: 1rem 0.8rem; */
     transition: all ease-in-out 1s;
   }
   .ilayout > i {
@@ -75,5 +75,9 @@
     justify-content: space-around;
     font-size: 2rem;
     color: white;
+  }
+  body,
+  html {
+    overflow-x: hidden;
   }
 }

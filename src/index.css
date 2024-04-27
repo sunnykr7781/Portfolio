@@ -21,7 +21,12 @@ body {
 body {
   font-family: "Poppins", sans-serif;
   position: relative;
+  /* overflow-x: hidden; */
 }
 html {
   scroll-behavior: smooth;
+}
+html,
+body {
+  box-sizing: border-box;
 }

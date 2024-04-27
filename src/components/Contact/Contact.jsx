@@ -28,7 +28,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="tag">
-          <a href="#hammenu">home</a>
+          <a href="#empty">home</a>
           <a href="#about">about</a>
           <a href="#skills">skills</a>
           <a href="#projects">project</a>
