@@ -25,7 +25,7 @@
   .hammenu {
     width: 100vw;
     height: 8vh;
-    padding: 28px 12px;
+    padding: 28px 14px;
     /* background-color: red; */
     display: initial;
     display: flex;
@@ -34,13 +34,13 @@
     /* background-color: red; */
   }
   .hammenu h4 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   .hammenu span {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   .hammenu i {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
   #layout {
     display: initial;
@@ -58,7 +58,8 @@
     font-size: 2.6rem;
     float: right;
     cursor: pointer;
-    margin-right: 1rem;
+    margin-right: 1.6rem;
+    padding-top: 1.6rem;
   }
   .alayout {
     display: flex;
