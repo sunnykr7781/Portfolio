@@ -1,5 +1,6 @@
 import React from "react"
 import "./Project.css"
+import "./Mediaquery.css"
 
 const Project = () => {
   return (
@@ -14,7 +15,11 @@ const Project = () => {
             <img src="../assets/be.png" alt="" />
             <h1>mozzila extension</h1>
             <div className="buttonn">
-              <a target="_blank"  rel="noreferrer"  href="https://todo-verse.netlify.app/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://todo-verse.netlify.app/"
+              >
                 live
               </a>
               <a

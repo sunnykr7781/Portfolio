@@ -1,5 +1,6 @@
 import React from "react"
 import "./Skills.css"
+import "./Mediaquery.css"
 
 const Skills = () => {
   return (

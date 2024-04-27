@@ -1,20 +1,21 @@
-import React from "react";
-import "./Home.css";
+import React from "react"
+import "./Home.css"
+import "./Mediaquery.css"
 
 const Home = () => {
   const downloadCV = () => {
     // Adjust the path to your CV file
-    const cvUrl = process.env.PUBLIC_URL + '/assets/cv.pdf';
+    const cvUrl = process.env.PUBLIC_URL + "/assets/cv.pdf"
 
     // Open the CV file in a new window
-    window.open(cvUrl, '_blank');
-  };
+    window.open(cvUrl, "_blank")
+  }
 
   return (
     <div id="home">
       <main>
         <div className="image">
-          <img src={process.env.PUBLIC_URL + '/assets/pp.jpeg'} alt="imageee" />
+          <img src={process.env.PUBLIC_URL + "/assets/pp.jpeg"} alt="imageee" />
         </div>
         <div className="information">
           <h5>hello, I'm</h5>
@@ -24,12 +25,12 @@ const Home = () => {
             <button className="btn2" onClick={downloadCV}>
               Download CV
             </button>
-            <button className="btn">contact info</button>
+            <a href="#contact">contact</a>
           </div>
         </div>
       </main>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

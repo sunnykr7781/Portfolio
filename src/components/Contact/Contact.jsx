@@ -1,4 +1,5 @@
 import "./Contact.css"
+import "./Mediaquery.css"
 const Contact = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="tag">
-          <a href="#nav">home</a>
+          <a href="#hammenu">home</a>
           <a href="#about">about</a>
           <a href="#skills">skills</a>
           <a href="#projects">project</a>

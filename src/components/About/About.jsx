@@ -1,6 +1,7 @@
 import React from "react"
 import "./About.css"
 import "remixicon/fonts/remixicon.css"
+import "./Mediaquery.css"
 
 const About = () => {
   return (
@@ -30,9 +31,24 @@ const About = () => {
               </div>
             </div>
             <div className="btm">
-            My name is Sunny Kumar, and I specialize in MERN Stack development. I have a solid grasp of full-stack web development and am proficient in Java for Data Structures and Algorithms. Additionally, I have expertise in Object-Oriented Programming (OOPs) concepts and Computer Networks. Currently, I am enrolled in a BTech program and anticipate graduating in 2025. I am dedicated to learning and strive to deliver high-quality software solutions.
+              My name is Sunny Kumar, and I specialize in MERN Stack
+              development. I have a solid grasp of full-stack web development
+              and am proficient in Java for Data Structures and Algorithms.
+              Additionally, I have expertise in Object-Oriented Programming
+              (OOPs) concepts and Computer Networks. Currently, I am enrolled in
+              a BTech program and anticipate graduating in 2025. I am dedicated
+              to learning and strive to deliver high-quality software solutions.
             </div>
           </div>
+        </div>
+        <div className="na">
+          <p>My name is Sunny Kumar, and I specialize in MERN Stack
+              development. I have a solid grasp of full-stack web development
+              and am proficient in Java for Data Structures and Algorithms.
+              Additionally, I have expertise in Object-Oriented Programming
+              (OOPs) concepts and Computer Networks. Currently, I am enrolled in
+              a BTech program and anticipate graduating in 2025. I am dedicated
+              to learning and strive to deliver high-quality software solutions.</p>
         </div>
       </div>
     </>

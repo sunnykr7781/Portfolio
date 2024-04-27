@@ -113,3 +113,6 @@ i {
   font-size: 2vw;
   font-weight: bold;
 }
+.na {
+  opacity: 0;
+}

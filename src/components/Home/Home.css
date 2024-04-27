@@ -58,6 +58,7 @@ button {
   color: white;
   background-color: rgba(0, 0, 0, 0.822);
   border: 1.5px solid rgba(0, 0, 0, 0.137);
+  cursor: pointer;
 }
 .btn2 {
   border: 1.5px solid rgba(0, 0, 0, 0.534);
@@ -68,6 +69,23 @@ button {
   background-color: black;
   color: white;
 }
-.btn:hover {
+.downloads > a:hover {
   background-color: black;
+}
+.downloads > a {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.822);
+  border: 1.5px solid rgba(0, 0, 0, 0.137);
+  cursor: pointer;
+  font-size: 1.13vw;
+  /* padding: 1px; */
+  font-weight: 600;
+  transition: all 400ms ease;
+  padding: 0.49rem;
+  width: 6.9rem;
+  border-radius: 2rem;
+
+  align-items: center;
+  margin-left: 16px;
+  font-weight: normal;
 }
