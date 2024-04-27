@@ -1,12 +1,22 @@
-import React from "react"
+import React, { useState } from "react"
 import "./Navbar.css"
 import "./Mediaquery.css"
 
 const Navbar = () => {
+  const [layoutVisible, setLayoutVisible] = useState(false)
+
+  const toggleLayout = () => {
+    setLayoutVisible(!layoutVisible)
+  }
+
+  const closeLayout = () => {
+    setLayoutVisible(false)
+  }
+
   return (
     <>
-      <div  id="nav" className="nav">
-        <div  className="cl">
+      <div id="nav" className="nav">
+        <div className="cl">
           <div className="name">
             <h4>
               <span>{"</"}</span>
@@ -42,6 +52,31 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+      {/* Layout */}
+      {layoutVisible && (
+        <div id="layout">
+          <div className="ilayout">
+            <i className="ri-close-line" onClick={closeLayout}></i>
+          </div>
+          <div className="alayout">
+            <a href="#about" onClick={closeLayout}>
+              About
+            </a>
+            <a href="#skills" onClick={closeLayout}>
+              Skills
+            </a>
+            <a href="#projects" onClick={closeLayout}>
+              Projects
+            </a>
+            <a href="#contact" onClick={closeLayout}>
+              Contact
+            </a>
+          </div>
+        </div>
+      )}
+
+      {/* Hamburger Menu */}
       <div id="hammenu" className="hammenu">
         <div className="name">
           <h4>
@@ -51,7 +86,7 @@ const Navbar = () => {
           </h4>
         </div>
         <div className="icon">
-          <i class="ri-menu-line"></i>
+          <i className="ri-menu-line" onClick={toggleLayout}></i>
         </div>
       </div>
     </>
