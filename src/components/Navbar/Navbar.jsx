@@ -3,15 +3,21 @@ import "./Navbar.css"
 import "./Mediaquery.css"
 
 const Navbar = () => {
-  const [layoutVisible, setLayoutVisible] = useState(false)
+  const [layoutVisible, setLayoutVisible] = useState(false);
 
   const toggleLayout = () => {
-    setLayoutVisible(!layoutVisible)
-  }
+    setLayoutVisible(!layoutVisible);
+    if (!layoutVisible) {
+      document.body.style.overflow = "hidden"; 
+    } else {
+      document.body.style.overflow = "visible"; 
+    }
+  };
 
   const closeLayout = () => {
-    setLayoutVisible(false)
-  }
+    setLayoutVisible(false);
+    document.body.style.overflow = "visible"; 
+  };
 
   return (
     <>
@@ -55,7 +61,7 @@ const Navbar = () => {
       </div>
 
       {/* Layout */}
-      {/* {layoutVisible && (
+       {layoutVisible && (
         <div id="layout">
           <div className="ilayout">
             <i className="ri-close-line" onClick={closeLayout}></i>
@@ -75,7 +81,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-      )} */}
+      )} 
 
       {/* Hamburger Menu */}
       <div id="hammenu" className="hammenu">

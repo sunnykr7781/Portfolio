@@ -58,7 +58,7 @@
     font-size: 2.6rem;
     float: right;
     cursor: pointer;
-    /* margin-right: 1rem; */
+    margin-right: 1rem;
   }
   .alayout {
     display: flex;
